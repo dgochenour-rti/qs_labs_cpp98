@@ -337,7 +337,6 @@ extern "C" int subscriber_main(int domainId, int sample_count)
                 DDS_StatusMask triggeredmask =
                         qs_type_reader->get_status_changes();
   
-                // Subscription matched
                 if (triggeredmask & DDS_DATA_AVAILABLE_STATUS) {
                     // Current conditions match our conditions to read data, so
                     // we can read data just like we would do in any other
