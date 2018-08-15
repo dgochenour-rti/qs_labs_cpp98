@@ -91,7 +91,6 @@ Lab 10. Content Filtered topic
     - run pub and sub to verify that you are seeing the expected results
   - Now modify subscriber code to add a cft
     - add code to create the parameters and Filter
-    - set the filter name
     - change the reader instantiation to use ContentFilteredTopic instead of normal topic
   - open admin console to show that no new topic is shown, the filtering is logical but
     does not spawn a new entity
